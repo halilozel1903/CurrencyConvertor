@@ -56,7 +56,29 @@ class ViewController: UIViewController {
                         // DispatchQueue : çalışma öğelerinin yürütülmesini yönetir. Bir sıraya gönderilen her iş öğesi, sistem tarafından yönetilen bir iş parçacığı havuzunda işlenir.
                         
                         DispatchQueue.main.async {
-                            print(jSONResult)
+                            // print(jSONResult)
+                            
+                            let rates = jSONResult["rates"] as! [String:AnyObject]
+                            
+                            // veriler alınıp text'e değerler yazdırılıyor.
+                            
+                            let turkish = String(describing: rates["TRY"]!)
+                            self.tryLabel.text = "TRY : \(turkish)"
+                            
+                            let cad = String(describing: rates["CAD"]!)
+                            self.cadLabel.text = "CAD : \(cad)"
+                            
+                            let chf = String(describing: rates["CHF"]!)
+                            self.chfLabel.text = "CHF : \(chf)"
+                            
+                            let gbp = String(describing: rates["GBP"]!)
+                            self.gbpLabel.text = "GBP : \(gbp)"
+                            
+                            let jpy = String(describing: rates["JPY"]!)
+                            self.jpyLabel.text = "JPY : \(jpy)"
+                            
+                            let usd = String(describing: rates["USD"]!)
+                            self.usdLabel.text = "USD : \(usd)"
                         }
                         
                     }catch{
