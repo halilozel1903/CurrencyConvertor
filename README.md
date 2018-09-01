@@ -32,4 +32,6 @@ bulunan ilgili alanlara anlık olarak yazacaktır. Örnek olması açısından b
 <br>
 
 ## Uygulamanın Demosu
-
+<p>
+  <img src="https://github.com/halilozel1903/CurrencyConvertor/blob/master/pic2.png" width="300" >
+</p>
