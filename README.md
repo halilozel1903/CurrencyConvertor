@@ -33,5 +33,7 @@ bulunan ilgili alanlara anlık olarak yazacaktır. Örnek olması açısından b
 
 ## Uygulamanın Demosu
 <p>
-  <img src="https://github.com/halilozel1903/CurrencyConvertor/blob/master/pic2.png" width="300" >
+  <img src="https://github.com/halilozel1903/CurrencyConvertor/blob/master/pic2.png" width="550" >
 </p>
+
+Kullanıcı butona tıklayınca anlık olarak EURO para biriminin ekranda bulunan diğer para birimlerindeki karşılıkları gösterilmektedir. Dökümanı okuyarak destek verilen diğer para birimlerinide sizler ekleyebilirsiniz.
