@@ -6,7 +6,7 @@
 - Currency Convertor (Para Birimi Çevirici)  bir iOS uygulamasıdır.
 - Projede API, JSON gibi yapılar kullanılmıştır.
 - Uygulama Euro para biriminin diğer para birimlerlerinde ne kadar değer sahibi olduğunu göstermektedir.
-- Proje Swift-4 dili ile yazılmıştır.
+- Proje Swift-4.2 dili ile yazılmıştır.
 
 <br>
 
